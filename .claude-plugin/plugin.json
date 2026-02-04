@@ -1,0 +1,22 @@
+{
+  "name": "reveal-presentations",
+  "version": "1.0.0",
+  "description": "Generate elegant HTML presentations with Reveal.js using the Autonomee.ai design system - dark background, serif headlines, muted accents.",
+  "author": "Goda",
+  "homepage": "https://github.com/godago/reveal-presentations",
+  "license": "MIT",
+  "keywords": [
+    "presentations",
+    "slides",
+    "reveal.js",
+    "pitch-deck",
+    "html"
+  ],
+  "components": {
+    "skills": ["skills/presentations"],
+    "commands": ["commands/presentation.md"]
+  },
+  "claude": {
+    "minVersion": "1.0.0"
+  }
+}
