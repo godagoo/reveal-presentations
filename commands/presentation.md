@@ -7,13 +7,13 @@ arguments:
     required: true
 ---
 
-# /presentation Command
+# /reveal-presentations:presentation Command
 
 Generate an elegant, minimal HTML presentation using Reveal.js with the Autonomee.ai design system.
 
 ## Instructions
 
-When the user runs `/presentation [topic]`, follow this workflow:
+When the user runs `/reveal-presentations:presentation [topic]`, follow this workflow:
 
 ### 1. Parse the Input
 
@@ -77,7 +77,7 @@ Then open it in the browser for preview.
 
 ## Example
 
-User: `/presentation AI Productivity Tools for Solopreneurs`
+User: `/reveal-presentations:presentation AI Productivity Tools for Solopreneurs`
 
 Output: 8-10 slide deck with:
 1. Title slide with compelling headline

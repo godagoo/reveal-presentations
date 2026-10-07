@@ -7,24 +7,32 @@ Generate elegant, minimal HTML presentations with Reveal.js using the Autonomee.
 - **Dark, editorial aesthetic** - Dark backgrounds, serif headlines, muted accents
 - **12+ slide templates** - Title, features, metrics, pricing, timeline, testimonials, and more
 - **Reveal.js powered** - Keyboard navigation, transitions, fullscreen, overview mode
-- **Self-contained** - Single HTML file with embedded styles, works offline
+- **Single file** - One HTML file with embedded styles. Reveal.js, fonts and icons load from a CDN, so you need a connection to present
 - **Customizable** - CSS variables for easy brand adaptation
 
 ## Installation
 
-### Option 1: GitHub Install (Recommended)
+### Option 1: Plugin marketplace (Recommended)
 
-```bash
-claude /plugin install godago/reveal-presentations
+This repo is its own plugin marketplace. Inside Claude Code, run:
+
+```
+/plugin marketplace add godagoo/reveal-presentations
+/plugin install reveal-presentations@reveal-presentations
 ```
 
-### Option 2: Local Install
-
-Clone this repository and install from local path:
+Or from your shell:
 
 ```bash
-git clone https://github.com/godago/reveal-presentations.git
-claude /plugin install ./reveal-presentations
+claude plugin marketplace add godagoo/reveal-presentations
+claude plugin install reveal-presentations@reveal-presentations
+```
+
+### Option 2: Load it for one session
+
+```bash
+git clone https://github.com/godagoo/reveal-presentations.git
+claude --plugin-dir ./reveal-presentations
 ```
 
 ## Usage
@@ -32,8 +40,10 @@ claude /plugin install ./reveal-presentations
 ### Quick Start
 
 ```
-/presentation AI Productivity Tools for Solopreneurs
+/reveal-presentations:presentation AI Productivity Tools for Solopreneurs
 ```
+
+Claude Code puts the plugin name in front of plugin commands, so the full command is `/reveal-presentations:presentation`.
 
 This generates a complete pitch deck with:
 - Title slide

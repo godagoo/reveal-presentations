@@ -235,6 +235,8 @@ To customize for a different brand, modify CSS variables:
 | `Esc` | Exit overview |
 | `B` | Black screen |
 
+Speaker notes: put `<aside class="notes">...</aside>` inside a slide. Press `S` to open the speaker view.
+
 ---
 
 ## Deployment Options

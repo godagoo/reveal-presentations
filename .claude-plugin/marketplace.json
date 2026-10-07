@@ -1,0 +1,15 @@
+{
+  "name": "reveal-presentations",
+  "description": "Reveal Presentations plugin for Claude Code",
+  "owner": {
+    "name": "Goda",
+    "url": "https://github.com/godagoo"
+  },
+  "plugins": [
+    {
+      "name": "reveal-presentations",
+      "source": ".",
+      "description": "Generate elegant HTML presentations with Reveal.js using the Autonomee.ai design system."
+    }
+  ]
+}
